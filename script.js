@@ -138,9 +138,6 @@ function numberToText(dialogNumber){
                     number = number - key * 10;
                     text += tens[key] + ` `;
             }   
-                if (number > 0) {
-                    text += ones[number];       
-                }
 
     return text.length<20 ? text : dialogNumber;
 };
