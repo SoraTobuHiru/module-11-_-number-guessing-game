@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+
+body {
+    background-image: url(https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2019/01/shutterstock_1057333226.jpg);
+    background-size: contain;
+}
+
+.game-card {
+    height: 100vh;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.initialCard {
+    background-color: #353f35;
+}
+
+.secondaryCard {
+    background-color: #353f35;
+}
+
+.rangeNumberSign {   
+    background-color: #353f35;
+}
+
+p, h4, h3, .btn {
+    color: chartreuse;
+}
+
+.btn {
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.blink {
+    -webkit-animation: blink 3s linear infinite;
+    animation: blink 3s linear infinite;
+}
+@-webkit-keyframes blink {
+    0% { color: chartreuse; }
+    50% { color: rgba(34, 34, 34, 0); }
+    100% { color: chartreuse; }
+}
+@keyframes blink {
+    0% { color: chartreuse; }
+    50% { color: rgba(34, 34, 34, 0); }
+    100% { color: chartreuse; }
+}
